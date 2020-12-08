@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Set the background color of a paragraph</title>
+</head>
+<body>
+<input type="button" value="Click to set paragraph background color" onclick="set_background()">
+<p>My name is yasica iam studying in saveetha Engineering college BE 4th year.</p>
+<script>
+function set_background() 
+{
+  docBody = document.getElementsByTagName("body")[0];
+  myBodyElements = docBody.getElementsByTagName("p");
+  myp1 = myBodyElements[0];
+  myp1.style.background = "rgb(255,0,0)";
+ }
+</script>
+</body>
+</html>
